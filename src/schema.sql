@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS aluno (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    nome TEXT NOT NULL,
+    cpf TEXT UNIQUE NOT NULL,
+    data_nascimento TEXT NOT NULL,
+    status TEXT NOT NULL
+);
